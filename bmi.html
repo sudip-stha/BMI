@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmi.css">
+    <title>BMI calculator</title>
+</head>
+<body>
+    <div id="container">
+        <form>
+        <h3>BMI calculator</h3>
+        <label for="inpHeight" class="inp">Height in cm: </label>
+        <input type="number" value="number" id="inpHeight" step="0.001"><br><br>
+        <a href="ftTocm.html" class="cm" target="_blank">Converter Ft to Cm</a><br>
+        <label for="inpWeight" class="inp">Weight in kg: </label>
+        <input type="number" value="number" id="inpWeight" step="0.001"><br>
+        <button>Calculate</button>
+        <div class="resultPart1">Results:</div>
+        <div class="results"> </div>
+        <div class="resultdesc"></div>
+    </form>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+</html>
