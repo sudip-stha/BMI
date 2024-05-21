@@ -27,12 +27,16 @@ form.addEventListener('submit',function(e){
        }
     }
 })
+const cm=document.querySelector('#cm');
+cm.addEventListener('click',function(){
+    document.querySelector('#cmLink').click();
+})
 
-// function randomNum(number){
-//   return Math.floor(Math.random()*(number+1));
-// }
-// const bgColor=function(){
-//     const change=`rgb(${randomNum(255)} ${randomNum(255)} ${randomNum(255)} )`
-//     document.body.style.backgroundColor=change;
-// }
-// setInterval(bgColor,5000);
+function randomNum(number){
+  return Math.floor(Math.random()*(number+1));
+}
+const bgColor=function(){
+    const change=`rgb(${randomNum(255)} ${randomNum(255)} ${randomNum(255)} )`
+    document.body.style.backgroundColor=change;
+}
+setInterval(bgColor,3000);

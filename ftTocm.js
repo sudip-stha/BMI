@@ -13,6 +13,7 @@ else{
     result.innerHTML=`<span>${cm}<span>`
 }
 
-
-
 })
+document.getElementById('btn2').addEventListener('click', function() {
+    document.getElementById('fileLink').click();
+});

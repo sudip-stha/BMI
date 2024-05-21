@@ -14,7 +14,7 @@ html,body{
 }
 .container{
     background-color: rgb(190, 145, 77);
-    height: 35vw;
+    height: 39vw;
     border-radius: 1vw ;
     box-shadow: 15px 15px 15px 10px ;
 
@@ -61,6 +61,19 @@ h4{
     font-size: 1.5vw;
     border: 3px solid black;
 
+}
+#btn2{
+    border: 2px solid black;
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    margin: 15px;
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgb(131, 107, 128);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
 }
 @media ( max-width:450px) {
     .container{
